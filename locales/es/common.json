@@ -1,0 +1,12 @@
+{
+  "404": "404",
+  "404-title": "Lo siento, no se encontró esta página.",
+  "404-message": "Pero no te preocupes, puedes encontrar más cosas en la página de inicio.",
+  "backToHomePage": "Ir al inicio",
+  "nav": {
+    "blog": "Blog",
+    "tags": "Etiquetas",
+    "projects": "Proyectos",
+    "about": "Acerca de"
+  }
+}
