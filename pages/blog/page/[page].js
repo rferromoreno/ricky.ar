@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import { PageSeo } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
@@ -42,6 +43,7 @@ export async function getStaticProps(context) {
 }
 
 export default function PostPage({ posts, initialDisplayPosts, pagination }) {
+  const { t } = useTranslation('common')
   return (
     <>
       <PageSeo
@@ -53,7 +55,7 @@ export default function PostPage({ posts, initialDisplayPosts, pagination }) {
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
-        title="All Posts"
+        title={t('others.allPosts')}
       />
     </>
   )

@@ -8,5 +8,23 @@
     "tags": "Etiquetas",
     "projects": "Proyectos",
     "about": "Acerca de"
+  },
+  "others": {
+    "allPosts": "Todas las publicaciones",
+    "searchArticles": "Buscar artículos",
+    "learnMore": "Ver más",
+    "readMore": "Leer más",
+    "previousArticle": "Artículo previo",
+    "nextArticle": "Siguiente artículo",
+    "backToBlog": "Volver al blog",
+    "discussOnTwitter": "Publicarlo en Twitter",
+    "viewOnGitHub": "Ver en GitHub",
+    "latest": "Últimas publicaciones",
+    "underConstruction": "En construcción",
+    "noPosts": "No se encontraron artículos.",
+    "noTags": "No se encontraron etiquetas.",
+    "publishedOn": "Publicado el",
+    "authors": "Autores",
+    "name": "Nombre"
   }
 }

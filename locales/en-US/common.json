@@ -8,5 +8,23 @@
     "tags": "Tags",
     "projects": "Projects",
     "about": "About"
+  },
+  "others": {
+    "allPosts": "All Posts",
+    "searchArticles": "Search articles",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "previousArticle": "Previous Article",
+    "nextArticle": "Next Article",
+    "backToBlog": "Back to the blog",
+    "discussOnTwitter": "Discuss on Twitter",
+    "viewOnGitHub": "View on GitHub",
+    "latest": "Latest",
+    "underConstruction": "Under construction",
+    "noPosts": "No posts found.",
+    "noTags": "No tags found.",
+    "publishedOn": "Published on",
+    "authors": "Authors",
+    "name": "Name"
   }
 }

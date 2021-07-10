@@ -11,6 +11,7 @@ module.exports = withPlugins(
     i18n: {
       locales: ['en-US', 'es'],
       defaultLocale: 'en-US',
+      localeDetection: false,
     },
     reactStrictMode: true,
     pageExtensions: ['js', 'jsx', 'md', 'mdx'],

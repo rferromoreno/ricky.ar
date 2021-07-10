@@ -1,5 +1,6 @@
 import fs from 'fs'
 import { MDXRemote } from 'next-mdx-remote'
+import useTranslation from 'next-translate/useTranslation'
 import MDXComponents from '@/components/MDXComponents'
 import PageTitle from '@/components/PageTitle'
 import PostLayout from '@/layouts/PostLayout'
@@ -34,7 +35,7 @@ export async function getStaticProps({ params }) {
 
 export default function Blog({ post, prev, next }) {
   const { mdxSource, frontMatter } = post
-
+  const { t } = useTranslation('common')
   return (
     <>
       {frontMatter.draft !== true ? (
@@ -44,7 +45,7 @@ export default function Blog({ post, prev, next }) {
       ) : (
         <div className="mt-24 text-center">
           <PageTitle>
-            Under Construction{' '}
+            {t('others.underConstruction')}{' '}
             <span role="img" aria-label="roadwork sign">
               🚧
             </span>
