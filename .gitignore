@@ -18,7 +18,6 @@ public/sitemap.xml
 /build
 *.xml
 # rss feed
-/public/index.xml 
 /public/feed.xml
 
 # misc
